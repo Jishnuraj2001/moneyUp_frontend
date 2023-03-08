@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/budget.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+</head>
+<body>
+    <!-- <nav></nav> -->
+    <div id="render_navbar"></div>
+
+    <!-- budget data mid-container -->
+    <div id="mid-container">
+      <h1 id="mid-cont-title">Budget For The Month</h1>
+      <div id="mid-cont-head">
+        <ul id="mid-main-head">
+            <div id="mid-main-task">Task Name</div>
+            <div id="mid-main-amnt">Amount</div>
+            <div id="mid-main-edit">Edit</div>
+            <div id="mid-main-delt">Delete</div>
+            <div id="mid-main-cmpl">Completed</div>
+        </ul>
+     </div>
+     <div id="main-data-container">
+        <!-- <div class="main-task-div">
+            <ul class="main-task-ul">
+                <div class="main-name-div">
+                    <input class="main-task-name" type="text" value="Coffe" readonly required>
+                </div>
+                <div class="main-amout-div">
+                    <input class="main-task-amount" type="Number" value="5000" readonly required>
+                </div>
+                <div class="main-edit-div">
+                    <img src="./budgetImages/edit_img.png" alt=""  class="main-task-edit">
+                </div>
+               <div  class="main-delete-div">
+                <img src="./budgetImages/delete_img.png" alt="" class="main-task-delete">
+               </div>
+                <div class="main-btn-div">
+                    <button class="main-task-completed">No</button>
+                </div>
+            </ul>
+        </div> -->
+     </div>
+    </div>
+    
+
+    <!-- form for create budget  -->
+    <div id="mid-bottom-form">
+        <form id="budget-fill-form">
+            <div id="task-name-div">
+                <label for="taskname">Task Name:</label>
+                <input id="ip-task-name" type="text" name="taskname" placeholder="Enter your task here...">
+            </div>
+            <div id="task-amt-div">
+                <label for="taskamt">Enter Amount:</label>
+                <input id="ip-task-amt" type="number" name="taskamt" placeholder="Enter your amout here...">
+            </div>
+           <div id="sub-btn-div">
+            <button id="submit-btn-butdget">Add Task</button>
+           </div>
+            <div id="ttl-amt-div">
+                <label for="amtspent">Amount Spended:</label>
+                <input id="ip-amt-spent" type="number" name="amtspent" placeholder="₹00,000/-" readonly>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-div">
+            <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_191,h_191/https://goodbudget.com/wp-content/uploads/2019/03/12114655/budget-that-syncs-couple-e1560365252699.png"
+                alt="">
+
+            <div class="txt-div">
+                <h2>Money Up</h2>
+                <p>Budget well. Live life. Do good.</p>
+                <p class="footer-para">A home budget app based on the envelope budget system. Available on the Web,
+                    Android and
+                    iPhone. <br> Replace your family budget planner,worksheet or spreadsheet with software that syncs.
+                </p>
+                <span><i style="color: blue;" class="fab fa-facebook"></i> <i style="color: skyblue;"
+                        class="fab fa-twitter"></i> <i style="color: darkmagenta;" class="fab fa-instagram"></i>
+                </span>
+            </div>
+
+
+            <div class="flexlist">
+                <div class="list">
+                    <h6>EXPLORE</h6>
+                    <ul>
+                        <li>Home</li>
+                        <li>How it works</li>
+                        <li>What you get</li>
+                        <li>The Money Up way</li>
+                        <li>Reviews</li>
+                        <li>Roadmap</li>
+                        <li>Budget Podcast</li>
+                        <li>Blog</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h6>GET STARTED</h6>
+                    <ul>
+                        <li>Sign Up</li>
+                        <li>Log In</li>
+                        <li>Pricing</li>
+                        <li>Envelope Budgeting</li>
+                        <li>How To Make a Budget</li>
+                        <li>Online Budget Courses</li>
+                        <li>Budgeting Goals</li>
+                        <li>What Is Debt Snowball</li>
+                        <li>Kakeibo Budget</li>
+                        <li>Cash Stuff</li>
+                    </ul>
+                </div>
+                <div class="list">
+
+                    <h6>GET HELP</h6>
+                    <ul>
+                        <li>User Guide</li>
+                        <li>Forums</li>
+                        <li>Refunds</li>
+                        <li>How To Videos</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+        </div>
+
+
+        <p>©️ 2009–present Dayspring Partners | Terms | Privacy | Press Resources<br>
+            Android, Google Play, and the Google Play logo are trademarks of Google LLC. | Apple, Apple logo, iPad,
+            iPhone, iPod touch, iTunes, and Podcast Logo are trademarks of Apple Inc., registered in the U.S. and
+            other<br>
+            countries. App Store is a service mark of Apple Inc. | EEBA, the Easy Envelope Budget Aid, the EEBA mascot,
+            “You can keep a budget, EEBA can help,” Money Up, the Money Up mascot, the Money Up envelope,<br>and
+            “Budget well. Live life. Do good.” are trademarks of Dayspring Technologies, Inc. SPC, a San Francisco
+            custom web app development company.</p>
+
+
+    </footer>
+</body>
+<script src="./script/budget.js"></script>
+<script src="./script/globalnavbar.js"></script>
+</html>
